@@ -10,11 +10,8 @@ Original project: [MS-TCT GitHub](https://github.com/dairui01/MS-TCT)
 
 [![Watch Full Demo](https://drive.google.com/file/d/1fxjyiWEThWNCEfSo7Dm7Yo-e1lQpcjGO/view?usp=drive_link)](https://drive.google.com/file/d/1wYmdFlScK1cmAHWWXWcELuFcSiLMt3FP/view?usp=drive_link)
 
+[![Watch the video](demo_thumb.jpg)](https://drive.google.com/file/d/1fxjyiWEThWNCEfSo7Dm7Yo-e1lQpcjGO/view?usp=sharing)
 
-![Demo Thumbnail]()
-
-
-[![Watch Full Demo]([](https://drive.google.com/file/d/1fxjyiWEThWNCEfSo7Dm7Yo-e1lQpcjGO/view?usp=sharing ))](https://drive.google.com/file/d/1wYmdFlScK1cmAHWWXWcELuFcSiLMt3FP/view?usp=drive_link)
 ##  Quick Start
 
 1. Open the Colab notebook here:  
