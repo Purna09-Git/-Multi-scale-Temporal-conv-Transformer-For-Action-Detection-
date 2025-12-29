@@ -9,7 +9,7 @@ Original project: [MS-TCT GitHub](https://github.com/dairui01/MS-TCT)
 ##  Quick Start
 
 1. Open the Colab notebook here:  
-👉 [MSTCT Colab Notebook](https://colab.research.google.com/drive/1IfDJjycOXuyrrJPYwLx-NXuSYleFfc8b?usp=sharing)
+👉 [MSTCT Colab Notebook](https://colab.research.google.com/drive/1GTmWSqlaZPdvgDsY7ryEvct_DpAPBTqU?usp=sharing)
 
 2. Run all the cells from top to bottom.
 
