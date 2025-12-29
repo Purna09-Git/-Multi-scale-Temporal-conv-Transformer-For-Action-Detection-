@@ -6,11 +6,12 @@ Original project: [MS-TCT GitHub](https://github.com/dairui01/MS-TCT)
 
 ---
 
-## 🎬 Project Demo
 
+##  Project Demo
 
+[![Watch the video](Video%20Activity%20Analysis.png)](https://drive.google.com/file/d/1fxjyiWEThWNCEfSo7Dm7Yo-e1lQpcjGO/view?usp=drive_link)
 
-[![Watch the video](Video Activity Analysis.png)](https://drive.google.com/file/d/1wYmdFlScK1cmAHWWXWcELuFcSiLMt3FP/view?usp=drive_link)
+> **Note:** Click the image above to watch the full demo on Google Drive.
 
 ##  Quick Start
 
