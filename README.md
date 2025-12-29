@@ -8,9 +8,7 @@ Original project: [MS-TCT GitHub](https://github.com/dairui01/MS-TCT)
 
 ## 🎬 Project Demo
 
-[![Watch Full Demo](https://drive.google.com/file/d/1fxjyiWEThWNCEfSo7Dm7Yo-e1lQpcjGO/view?usp=drive_link)](https://drive.google.com/file/d/1wYmdFlScK1cmAHWWXWcELuFcSiLMt3FP/view?usp=drive_link)
-
-[![Watch the video](demo_thumb.jpg)](https://drive.google.com/file/d/1fxjyiWEThWNCEfSo7Dm7Yo-e1lQpcjGO/view?usp=sharing)
+& Video Activity Analysis (1)
 
 ##  Quick Start
 
