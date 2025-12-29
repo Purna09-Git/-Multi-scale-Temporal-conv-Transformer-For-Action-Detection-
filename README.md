@@ -10,7 +10,7 @@ Original project: [MS-TCT GitHub](https://github.com/dairui01/MS-TCT)
 
 
 
-[![Watch the video](& Video Activity Analysis (1).png)](https://drive.google.com/file/d/1wYmdFlScK1cmAHWWXWcELuFcSiLMt3FP/view?usp=drive_link)
+[![Watch the video](Video Activity Analysis.png)](https://drive.google.com/file/d/1wYmdFlScK1cmAHWWXWcELuFcSiLMt3FP/view?usp=drive_link)
 
 ##  Quick Start
 
