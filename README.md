@@ -6,7 +6,7 @@ Original project: [MS-TCT GitHub](https://github.com/dairui01/MS-TCT)
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 1. Open the Colab notebook here:  
 👉 [MSTCT Colab Notebook](https://colab.research.google.com/drive/1IfDJjycOXuyrrJPYwLx-NXuSYleFfc8b?usp=sharing)
@@ -22,7 +22,7 @@ The notebook will automatically:
 
 ---
 
-## ⚙️ Requirements
+##  Requirements
 
 **Basic:**  
 - Python 3.8+  
@@ -38,7 +38,7 @@ The notebook will automatically:
 
 ---
 
-## 🎥 Video Input
+## Video Input
 
 You can use your videos in multiple ways:  
 1. Upload directly to Colab  
@@ -49,7 +49,7 @@ Supported formats: `.mp4`, `.avi`, `.mov`
 
 ---
 
-## 🛠 Model Setup & Inference
+## Model Setup & Inference
 
 Here’s basically what the notebook does under the hood:
 
@@ -59,3 +59,45 @@ Here’s basically what the notebook does under the hood:
 !git clone https://github.com/dairui01/MS-TCT.git
 %cd MS-TCT
 !pip install -r requirements.txt
+```
+Load the model and run inference:
+
+```bash
+from MSTCT.model import MSTCT
+
+model = MSTCT(pretrained=True)  # loads pre-trained weights
+```
+
+Then you can:
+
+Process video frames
+
+Generate temporal embeddings
+
+Save outputs (.npy files) in /content/
+
+Pro tip: If you have multiple videos, batch processing will save you a lot of time.
+
+## Outputs
+
+After running the notebook, you’ll get:
+
+Extracted temporal features
+
+Processed frames
+
+Prediction logs
+
+Saved .npy files
+
+Everything will be in /content/—you can download manually.
+
+## Notes
+
+This setup is made for Colab, but you can run it locally if your Python version and dependencies match.
+
+Always try to use a GPU, especially for long or high-res videos.
+
+You can tweak the notebook to save features or predictions in your preferred format.
+
+
