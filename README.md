@@ -1,110 +1,61 @@
-# MSTCT - Colab Setup
+# MSTCT - Colab Setup & Guide
 
-This repository contains a Google Colab notebook to set up and run the MSTCT (Multi-Scale Temporal Convolutional Transformer) (https://github.com/dairui01/MS-TCT) project in a Colab environment.
+Hey! This is a quick guide to set up and run **MSTCT (Multi-Scale Temporal Convolutional Transformer)** in **Google Colab**. MSTCT is awesome for extracting **temporal features from video sequences** and running inference with pre-trained models.
 
-MSTCT is a project focused on **multi-scale temporal feature extraction**, typically used for processing video sequences, extracting temporal embeddings, and performing inference using pre-trained MSTCT models.
-
----
-
-## Contents
-
-- `MSTCT.ipynb` (or your notebook name):  
-  A Google Colab notebook that sets up the environment, installs dependencies, loads the MSTCT model repository, and runs inference on sample video data.
+Original project: [MS-TCT GitHub](https://github.com/dairui01/MS-TCT)
 
 ---
 
-## Setup Instructions
+## 🚀 Quick Start
 
-To use the notebook:
+1. Open the Colab notebook here:  
+👉 [MSTCT Colab Notebook](https://colab.research.google.com/drive/1IfDJjycOXuyrrJPYwLx-NXuSYleFfc8b?usp=sharing)
 
-1. Open the notebook in **Google Colab**  
-   👉 https://colab.research.google.com/drive/1IfDJjycOXuyrrJPYwLx-NXuSYleFfc8b?usp=sharing
+2. Run all the cells from top to bottom.
 
-2. Run all cells **sequentially from top to bottom**.
-
-3. The notebook will automatically:
-   - Check Python version and environment compatibility  
-   - Install all required dependencies (PyTorch, torchvision, OpenCV, etc.)  
-   - Clone the official **MS-TCT GitHub repository**  
-   - Load pre-trained MSTCT model weights (if included)  
-   - Process sample video frames  
-   - Extract features or run inference depending on your setup  
+The notebook will automatically:  
+- Check your Python version and GPU availability  
+- Install all required libraries like PyTorch, torchvision, OpenCV, and NumPy  
+- Clone the MSTCT repository  
+- Load pre-trained MSTCT weights  
+- Process video frames and generate temporal features or predictions
 
 ---
 
-## Requirements
+## ⚙️ Requirements
 
-This project is optimized for **Google Colab**, but can also run locally in a Jupyter Notebook environment with the following:
-
-### Software Requirements
-- Python 3.8+
-- PyTorch (GPU recommended)
-- torchvision
-- OpenCV
-- NumPy
+**Basic:**  
+- Python 3.8+  
+- PyTorch & torchvision  
+- OpenCV  
+- NumPy  
 - Git
 
-### Optional (but recommended)
-- GPU runtime (CUDA)  
-  In Colab:  
-  **Runtime → Change runtime type → GPU**
+**Optional (highly recommended):**  
+- GPU runtime in Colab → `Runtime → Change runtime type → GPU`  
+
+> Using a GPU will make processing videos way faster, especially long ones.
 
 ---
 
-## Setting up Video Input
+## 🎥 Video Input
 
-The MSTCT notebook supports multiple ways of loading video data:
+You can use your videos in multiple ways:  
+1. Upload directly to Colab  
+2. Mount your Google Drive and load videos from there  
+3. Use sample videos provided in the notebook
 
-1. Upload a video directly into Colab  
-2. Mount Google Drive and load videos from your folders  
-3. Use any sample videos included in the notebook  
-
-Ensure the video is in a supported format (`.mp4`, `.avi`, etc.).
-
----
-
-## Model Loading & Inference
-
-The Colab notebook will:
-
-- Clone the official MSTCT GitHub repository:
-
-  ```bash
-  !git clone https://github.com/dairui01/MS-TCT.git
-  ```
-
-- Navigate into the project directory  
-- Install required Python modules  
-- Load the MSTCT model for inference  
-- Process uploaded video frames  
-- Generate temporal embeddings or prediction outputs  
-  *(depending on your implementation)*
+Supported formats: `.mp4`, `.avi`, `.mov`
 
 ---
 
-## Output
+## 🛠 Model Setup & Inference
 
-After running the notebook, outputs such as:
+Here’s basically what the notebook does under the hood:
 
-- Extracted temporal features  
-- Processed frame sequences  
-- Prediction logs  
-- Saved `.npy` output files  
+**Clone the repo and install dependencies:**
 
-will be available in the Colab environment under:
-
-```
-/content/
-```
-
-Download them manually if needed.
-
----
-
-## License
-
-This project uses content and code from the original  
-**MS-TCT repository (https://github.com/dairui01/MS-TCT)**.  
-Please refer to their repository for licensing details.
-
----
+```bash
+!git clone https://github.com/dairui01/MS-TCT.git
+%cd MS-TCT
+!pip install -r requirements.txt
